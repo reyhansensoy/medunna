@@ -1,0 +1,17 @@
+
+Registrant{firstName='gunes', lastName='bulut', ssn='333-21-4445', login='null', langKey='null', password='null', email='gunes@gmail.com'}
+Registrant{firstName='yagmur', lastName='bulut', ssn='333-23-4445', login='null', langKey='null', password='null', email='yagmur@gmail.com'}
+Appointment2{appoSpeciality='Allergy', birthDate='2022-03-10T01:21:59.468Z', email='reyha2n@gmail.com', firstName='Reyhan', gender='female', lastName='dummylast', phone='123-378-2783', ssn='362-38-2837', startDate='2022-03-10'}
+Appointment2{appoSpeciality='Allergy', birthDate='2022-03-10T01:21:59.468Z', email='reyha2n@gmail.com', firstName='Reyhan', gender='female', lastName='dummylast', phone='123-378-2783', ssn='362-38-2837', startDate='2022-03-10'}
+Appointment2{appoSpeciality='null', birthDate='2022-03-10T01:21:59.468Z', email='reyha2n2@gmail.com', firstName='Reyhan2', gender='female', lastName='dummylast2', phone='173-378-2783', ssn='354-38-2837', startDate='null'}
+Appointment2{appoSpeciality='null', birthDate='2022-03-10T01:21:59.468Z', email='reyha2n2@gmail.com', firstName='Reyhan2', gender='female', lastName='dummylast2', phone='173-378-2783', ssn='354-38-2837', startDate='null'}
+Appointment2{appoSpeciality='null', birthDate='2022-03-10T01:21:59.468Z', email='reyha2n2@gmail.com', firstName='Reyhan2', gender='female', lastName='dummylast2', phone='173-378-2783', ssn='354-38-2837', startDate='2022-03-10'}
+Appointment2{appoSpeciality='null', birthDate='2022-03-10T01:21:59.468Z', email='reyha2n2@gmail.com', firstName='Reyhan2', gender='female', lastName='dummylast2', phone='173-378-2783', ssn='354-38-2837', startDate='2022-03-10'}
+Appointment2{appoSpeciality='null', birthDate='null', email='reyha2n22@gmail.com', firstName='Reyhan22', gender='female', lastName='dummylast22', phone='173-378-7363', ssn='354-73-2837', startDate='2022-03-10'}
+Appointment2{appoSpeciality='null', birthDate='null', email='reyha2n22@gmail.com', firstName='Reyhan22', gender='female', lastName='dummylast22', phone='173-378-7363', ssn='354-73-2837', startDate='2022-03-10'}
+Appointment2{appoSpeciality='null', birthDate='null', email='reyha2n22@gmail.com', firstName='Reyhan22', gender='null', lastName='dummylast22', phone='173-378-7363', ssn='354-73-2837', startDate='2022-03-10'}
+Appointment2{appoSpeciality='null', birthDate='null', email='reyha2n22@gmail.com', firstName='Reyhan22', gender='null', lastName='dummylast22', phone='173-378-7363', ssn='354-73-2837', startDate='2022-03-10'}
+Appointment2{appoSpeciality='null', birthDate='null', email='gunes@gmail.com', firstName='gunes', gender='null', lastName='bulut', phone='333-456-7890', ssn='333-21-4445', startDate='<date>'}
+Appointment2{appoSpeciality='null', birthDate='null', email='yagmur@gmail.com', firstName='yagmur', gender='null', lastName='bulut', phone='123-456-7890', ssn='333-23-4445', startDate='<date>'}
+Appointment2{appoSpeciality='null', birthDate='null', email='gunes@gmail.com', firstName='gunes', gender='null', lastName='bulut', phone='333-456-7890', ssn='333-21-4445', startDate='2022-03-24'}
+Appointment2{appoSpeciality='null', birthDate='null', email='yagmur@gmail.com', firstName='yagmur', gender='null', lastName='bulut', phone='123-456-7890', ssn='333-23-4445', startDate='2022-03-25'}
