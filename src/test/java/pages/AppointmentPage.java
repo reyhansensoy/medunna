@@ -41,4 +41,31 @@ public class AppointmentPage {
     @FindBy(xpath = "//*[text()='Appointment registration saved!']")
     public WebElement successMessageToastContainer;
 
+
+
+
+    @FindBy(xpath = "//*[text()='Your FirstName is required.']")
+    public WebElement firstNameRequiredMessage;
+
+    @FindBy(xpath = "//*[text()='Your LastName is required.']")
+    public WebElement lastNameRequiredMessage;
+
+    @FindBy(xpath = "//*[text()='Your SSN is required.']")
+    public WebElement ssnNumberRequiredMessage;
+
+    @FindBy(xpath = "//*[text()='Your email is required.']")
+    public WebElement emailRequiredMessage;
+
+    @FindBy(xpath = "//*[text()='Phone number is required.']")
+    public WebElement phoneNumberRequiredMessage;
+
+    @FindBy(xpath = "//*[text()='Internal server error.']")
+    public WebElement dateAlertMessage;
+
+
+
+
+
+
+
 }

@@ -1,7 +1,7 @@
 Feature: Registrant api test
 
 
-  @ApiRegistrant
+  @PostRequest
   Scenario Outline: registrant test
     Given user sets the necessary path params
     And user sets the expected data "<firstname>", "<lastname>" "<SSN>" "<email>" "<username>" "<password>" and "<lan>"
@@ -14,11 +14,31 @@ Feature: Registrant api test
     |Recep    |Aykurt  |293-38-2938|recep@gmail.com|recepaykurt|Recep123.|en|
 
 
+  @Get
   Scenario:  api get request for users
 
     Given user sends the get request for users data
     And user deserializes data to Java
     And user saves the users data to correspondent files
+
+
+
+  @PutUserRequest
+  Scenario: update existing users
+
+    Given user sets the expected user data
+    And user makes a put request for users
+    And user validates the changes
+
+
+  @DeleteRequest
+  Scenario: delete users
+
+    Given user sends the delete request
+    Then user validates the delete user
+
+
+
 
 
 

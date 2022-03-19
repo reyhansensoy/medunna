@@ -29,7 +29,7 @@ public class UIAppointmentSteps {
     @Given("user provides the appoinment name {string}")
     public void user_provides_the_appoinment_name(String firstname) {
         firstname = faker.name().firstName();
-        appointment.setFirstname(firstname);
+        appointment.setFirstName(firstname);
 
         Driver.waitAndSendText(appointmentPage.firstnameTextbox, firstname);
 
@@ -37,7 +37,8 @@ public class UIAppointmentSteps {
     @Given("user provides the appointment lastname {string}")
     public void user_provides_the_appointment_lastname(String lastname) {
         lastname = faker.name().lastName();
-        appointment.setLastname(lastname);
+        appointment.setLastName(lastname);
+
         Driver.waitAndSendText(appointmentPage.lastnameTextbox, lastname);
 
     }
@@ -45,6 +46,7 @@ public class UIAppointmentSteps {
     public void user_provides_ssn_and_email_and(String ssn, String email) {
         ssn = faker.idNumber().ssnValid();
         email = faker.internet().emailAddress();
+
         appointment.setSsn(ssn);
         appointment.setEmail(email);
 
@@ -53,14 +55,11 @@ public class UIAppointmentSteps {
         Driver.waitAndSendText(appointmentPage.emailTextbox, email);
 
 
-
-
-
     }
     @When("user provides the phone number {string}")
     public void user_provides_the_phone_number(String phoneNumber) {
         phoneNumber = faker.phoneNumber().cellPhone();
-        appointment.setPhoneNumber(phoneNumber);
+        appointment.setPhone(phoneNumber);
 
         Driver.waitAndSendText(appointmentPage.phoneTextbox, phoneNumber);
     }
@@ -68,7 +67,7 @@ public class UIAppointmentSteps {
     public void user_provides_the_date(String date) {
         //05-04-2022
 //        date = getDate();
-        appointment.setDate(date);
+        appointment.setStartDate(date);
 
         Driver.waitAndSendText(appointmentPage.dateTextbox, date+ Keys.ENTER);
 
@@ -80,6 +79,27 @@ public class UIAppointmentSteps {
         saveAppointData(appointment);
 
         Assert.assertTrue(Driver.waitForVisibility(appointmentPage.successMessageToastContainer, 5).isDisplayed());
+    }
+
+
+
+    @Given("user provides blank the appointment info {string}, {string},{string},{string},{string} and {string}")
+    public void user_provides_blank_the_appointment_info_and(String firstName, String lastName, String ssn, String email, String phoneNumber, String date) {
+
+
+        Driver.waitAndSendText(appointmentPage.firstnameTextbox,firstName);
+
+
+
+
+    }
+    @Then("user requests appointment and verifies the required message")
+    public void user_requests_appointment_and_verifies_the_required_message() {
+
+
+
+
+
     }
 
 }

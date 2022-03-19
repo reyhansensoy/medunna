@@ -12,9 +12,14 @@ Feature: Make appointment api test
 
     Examples: api test data
 
-      |firstname|lastname|SSN        |email           |phonenumber |date|
-      |gunes    | bulut  |333-21-4445|gunes@gmail.com |333-456-7890|2022-03-24|
-      |yagmur   | bulut  |333-23-4445|yagmur@gmail.com|123-456-7890|2022-03-25|
+      |firstname |lastname   |SSN        |email                  |phonenumber |date      |
+      |vera   |cicek22       |850-81-4460|gul222@gmail.com       |333-486-7890|2022-03-24|
+      |vedat  |bulut23       |355-91-4490|karanfil233@gmail.com  |123-600-7890|2022-03-25|
+
+
+
+
+
 
 
 

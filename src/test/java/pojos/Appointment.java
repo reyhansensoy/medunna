@@ -3,12 +3,15 @@ package pojos;
 public class Appointment {
 
 
-    private String firstname;
-    private String lastname;
-    private String ssn;
+    private String appoSpeciality;
+    private String birthDate;
     private String email;
-    private String phoneNumber;
-    private String date;
+    private String firstName;
+    private String gender;
+    private String lastName;
+    private String phone;
+    private String ssn;
+    private String startDate;
 
     /*
     "appoSpeciality": "string",
@@ -31,36 +34,28 @@ public class Appointment {
     }
 
     public Appointment(String firstname, String lastname, String ssn, String email, String phoneNumber, String date) {
-        this.firstname = firstname;
-        this.lastname = lastname;
+        this.firstName = firstname;
+        this.lastName = lastname;
         this.ssn = ssn;
         this.email = email;
-        this.phoneNumber = phoneNumber;
-        this.date = date;
+        this.phone = phoneNumber;
+        this.startDate = date;
     }
 
-    public String getFirstname() {
-        return firstname;
+    public String getAppoSpeciality() {
+        return appoSpeciality;
     }
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
+    public void setAppoSpeciality(String appoSpeciality) {
+        this.appoSpeciality = appoSpeciality;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getBirthDate() {
+        return birthDate;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
-
-    public String getSsn() {
-        return ssn;
-    }
-
-    public void setSsn(String ssn) {
-        this.ssn = ssn;
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
     }
 
     public String getEmail() {
@@ -71,31 +66,66 @@ public class Appointment {
         this.email = email;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public String getDate() {
-        return date;
+    public String getGender() {
+        return gender;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getSsn() {
+        return ssn;
+    }
+
+    public void setSsn(String ssn) {
+        this.ssn = ssn;
+    }
+
+    public String getStartDate() {
+        return startDate;
+    }
+
+    public void setStartDate(String startDate) {
+        this.startDate = startDate;
     }
 
     @Override
     public String toString() {
         return "Appointment{" +
-                "firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", ssn='" + ssn + '\'' +
+                "appoSpeciality='" + appoSpeciality + '\'' +
+                ", birthDate='" + birthDate + '\'' +
                 ", email='" + email + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", date='" + date + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", gender='" + gender + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", phone='" + phone + '\'' +
+                ", ssn='" + ssn + '\'' +
+                ", startDate='" + startDate + '\'' +
                 '}';
     }
 }
